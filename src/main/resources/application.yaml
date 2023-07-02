@@ -1,0 +1,16 @@
+
+server:
+  port: 8080
+
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    credentials:
+      access-key: AKIAUBR45FUH7YYRAQSW
+      secret-key: 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
+    endpoint:
+      uri: https://sqs.ap-south-1.amazonaws.com/278226873615/spring-sqs
+          
+            
